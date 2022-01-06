@@ -2,7 +2,7 @@
 
 # Desafio Final Módulo 5 - FRONTEND
 ---
-**Repositório de Backend**:https://github.com/anacss21/back-integral-m05-desafio
+**Repositório de Backend**:https://github.com/anacss21/Site-Back
 
 **Repositório de Frontend**:https://github.com/anacss21/Site
 

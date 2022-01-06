@@ -4,7 +4,7 @@
 ---
 **Repositório de Backend**:https://github.com/anacss21/back-integral-m05-desafio
 
-**Repositório de Frontend**:https://github.com/anacss21/front-integral-m05-desafio
+**Repositório de Frontend**:https://github.com/anacss21/Site
 
 **URL da aplicação funcionando**:https://desafio-integral-m05.netlify.app/
 

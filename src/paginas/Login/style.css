@@ -1,0 +1,69 @@
+.telaGeral{
+  display: flex; 
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.telaEsquerda{
+  width: 35%;
+  background-image: url('../../assets/background.png');
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover; 
+}
+
+.informeBackground{
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  margin-top: 140px;
+  padding: 40px;
+
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 130%;
+
+  color:#034A2A
+}
+
+.nomeLabelSenha{
+  display: flex;
+  justify-content: space-between;
+}
+.trocarSenha{
+  color: #DA0175;
+}
+  
+.loginTelaDireita{
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; 
+  }
+.textoBackground{
+    
+    text-align: center;
+    margin-top: 153px;
+    padding: 50px 50px;
+    width: 450px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 130%;
+  
+    color:#034A2A
+  }
+
+  @media (max-width: 768px) {
+    .telaEsquerda{
+      display: none;
+    }
+    .loginTelaDireita {
+      width: 100vw;
+    }
+  }
+    

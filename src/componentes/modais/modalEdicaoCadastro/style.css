@@ -1,0 +1,230 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+.fundoModal{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(145, 154, 150, 0.3);
+    backdrop-filter: blur(4px);
+    overflow-y: scroll;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 3;
+
+}
+.contemModal{
+    background: #FFFFFF;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 491px;
+    min-height: 623px;
+
+    position: absolute;
+}
+.contemInputsModal{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.cabecalhoModal{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+
+}
+.cabecalhoModal h2{
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 130%;    
+    display: flex;
+    align-items: center;
+    text-align: center;    
+    color: #343447;
+    margin-top: 40px;
+}
+.fechaModal{
+    cursor: pointer;
+    position: absolute;
+    top:30px;
+    right:31px;
+}
+
+.contemInputsModal{
+    margin-top: 12px;
+}
+.contemInputsModal label{
+    font-family: 'Nunito',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #344054;
+    margin-top: 20px;
+}
+.contemInputsModal input{
+    width: 379px;
+    height: 44px;
+    background: #FFFFFF;    
+    border: 1px solid #D0D5DD;
+    box-sizing: border-box;    
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    font-family: 'Inter',sans-serif;
+    font-size: 16px;
+    line-height: 24px;    
+    color: #667085;
+    padding-left: 14px;
+    
+}
+.contemInputsMenores{
+    display: flex;
+}
+.contemInputMenor{
+    display: flex;
+    flex-direction: column;
+}
+#novo-cpf{
+    margin-right: 24px;
+}
+#novo-telefone,#novo-cpf{
+    width: 178px;
+    height: 44px;
+}
+.contemInputSenha{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.botaoMostraSenha{
+    cursor: pointer;
+    width: 20px;
+    height: 18px;
+    position: absolute;
+    top: 63px;
+    right: 13px;
+}
+.alerta{
+    font-family: 'Inter',sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    color: #E70000;
+}
+.contemAplicar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.aplicaEdicaoCadastro{
+    all: unset;
+    cursor: pointer;
+    background: #DA0175;
+    color: #F8F8F9;
+    border-radius: 10px;
+    font-family: 'Nunito',sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+    align-items: center;
+    text-align: center;
+    width: 160px;
+    height: 33px;
+    margin-top: 15px;
+
+}
+.contemConfirmacaoEdicao{
+    position: relative;
+}
+.fecharConfirmacaoEdicao{
+    cursor: pointer;
+    position: absolute;
+    z-index: 5;
+    top: 25px;
+    right: 25px;
+}
+.confirmaEdicao{
+    position: relative;
+    z-index: 4;
+}
+.esconde{
+    display: none;
+}
+
+@media (max-width:1000px) {
+
+    .contemModal{
+    width: 80%;
+    min-height: 80%;
+}
+
+form {
+    width: 80%;
+}
+
+.cabecalhoModal h2{
+    
+    font-size: 36px;
+    margin-top: 45px;
+}
+
+.contemInputsModal{
+    margin-top: 19px;
+}
+.contemInputsModal label{
+    font-size: 20px;
+    line-height: 24px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.contemInputsModal input{
+    width: auto;
+    height: 60px;
+    font-size: 20px;
+    line-height: 24px;    
+}
+.contemInputsMenores{
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#novo-cpf{
+    margin-right: 24px;
+}
+#novo-telefone,#novo-cpf{
+    width: 310px;
+    height: 60px;
+}
+
+.botaoMostraSenha{
+    width: 35px;
+    height: 30px;
+    top: 75px;
+}
+.alerta{
+    margin-top: 10px;
+    font-size: 24px;
+    line-height: 29px;
+}
+.contemAplicar{
+
+    margin-top: 40px;
+}
+.aplicaEdicaoCadastro{
+    
+    font-size: 24px;
+    line-height: 25px;
+    width: 260px;
+    height: 63px;
+}
+}

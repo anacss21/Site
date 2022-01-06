@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.fundoModalExcluir {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(145, 154, 150, 0.3);
+  backdrop-filter: blur(4px);
+  overflow-y: scroll;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 3;
+}
+.modalExcluir {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 600px;
+  min-height: 400px;
+  left: 474px;
+  top: 247px;
+
+  background: #ffffff;
+  border-radius: 30px;
+}
+.modalFechar {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  bottom: 20.84%;
+  cursor: pointer;
+}
+.modalParagrafo {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 130%;
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+
+  color: #cc7800;
+}
+.modalBtn {
+  display: flex;
+  align-items: center;
+  margin-top: 24px;
+}
+.btnNao,
+.btnSim {
+  cursor: pointer;
+  font-family: 'Nunito',sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 25px;
+  padding: 2px 30px;
+
+  border-radius: 4px;
+}
+.btnNao {
+  margin-right: 16px;
+  background: #f2d6d0;
+  color: #ae1100;
+}
+.btnSim {
+  background: #acd9c5;
+  color: #034a2a;
+}

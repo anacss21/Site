@@ -1,0 +1,54 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.containerCardMensagem{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 16px;
+    box-shadow: 0px 4px 42px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    width: 330px;
+    height: 54px;
+    background: #C3D4FE;
+    position: absolute;
+    right: 7.5%;
+    bottom: 15%;
+    z-index: 5;
+}
+
+.containerCardMensagem img{
+    position: absolute;
+    right: 15px;
+    top: 7px;
+}
+.cardSucesso{
+    background: #C3D4FE;
+}
+.containerCardMensagem span{
+    font-family: 'Nunito',sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    color: #ffffff;
+    max-width: 275px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.cardSucesso{
+    background-color: #35508d;
+}
+.cardErro{
+    background-color: #c25967;
+}
+.cardErro span{
+    color : #ffffff;
+}
+
+.fixo{
+    position: fixed;
+}

@@ -1,0 +1,142 @@
+.assistenteVirtual{
+    margin-top: 17em;
+    margin-left: 5em ;
+    display: flex;
+    flex-direction: column;
+}
+.progressoLinhaVertical{
+    display:flex; 
+    align-items: baseline;
+}
+.progressoItens{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 4px;
+}
+.progressoItens2{
+    display: flex;
+    align-items: center;
+
+}
+.progressoNome{
+    font-size: 1.8em;
+    width: 100%;
+    color: #0E8750;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.progressoIconeBola{
+    width: 1em;
+    height: 1em;
+    font-size: 1.5rem;
+    transition: fill 200ms cubic-bezier(0.2, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+
+    border: 1px solid #0E8750;
+    border-radius: 50%;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.stepperBlock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    margin-left: 24px;
+}
+
+.atualIcone,
+.proximoIcone,
+.verificadoIcone{
+    display: flex;
+    align-items: center;
+
+}
+
+.backgroundVerde{
+    width: 3.2em;
+    height: 3.2em;
+    transition: fill 200ms cubic-bezier(0.2, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+
+    border: 1px solid #0E8750;
+    border-radius: 50%;
+    margin-bottom: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background: #0E8750;
+}
+.backgroundBranco{
+    width: 3.2em;
+    height: 3.2em;
+    transition: fill 200ms cubic-bezier(0.2, 0, 0.2, 1) 0ms;
+    flex-shrink: 0;
+    user-select: none;
+
+    border: 1px solid #0E8750;
+    border-radius: 50%;
+    margin-bottom: 4px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    
+    background: #F0F0F5;
+
+}
+
+.progressoLinha{
+    margin-top: 8px;
+    margin-bottom: 25px;
+    /* border-left: 1px solid #0fa954; */
+    padding-right: 8px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.8em;
+}
+.progressoTransicao{
+    display: flex;
+    min-height: 0px;
+    height: auto;
+    overflow: visible;
+}
+.progressoDica{
+    width: 100%;
+}
+.progressoTexto{
+    color: #3F3F55;
+    font-family: 'Nunito', sans-serif;
+}
+.progressoLinhaFinal{
+    margin-top: 8px;
+    padding-right: 8px;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.8em;
+}
+.progressoIcone{
+    display: flex;
+    align-items: center;
+}
+img{
+    display: flex;
+    align-items: center;
+}
+.img{
+    width: 5px;
+}
+.imgVerificada{
+    width: 20px;
+}
+.stepperEsquerda {
+    font-size: 62.5%
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Nunito:wght@600&display=swap');

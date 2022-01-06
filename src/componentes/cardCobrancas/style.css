@@ -1,0 +1,61 @@
+.containerCardCobrancas{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    border-radius: 30px;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: bold;
+    line-height: 130%;
+    color: #3F3F55;
+    height: 111px;
+    position: relative;
+    margin-top: 19px;
+    margin-bottom: 24px; 
+}
+.containerCardCobrancas img{
+    position: absolute;
+    left: 40px;
+}
+.containerCardCobrancas p{
+    font-size: 18px;
+    margin-bottom: 11px;
+}
+.containerCardCobrancas span{
+    font-size: 24px;
+}
+.cardPagas{
+    background: #EEF7F7;
+    min-width: 360px;
+    margin-left: 80px;
+    margin-right: 35.92px;
+}
+.cardVencidas{
+    background: #FFEFEF;
+    min-width: 360px;
+    margin-right: 35.92px;
+}
+.cardPrevistas{
+    background: #FCF6DC;
+    min-width: 346.17px;
+}
+.containerCardCobrancas div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 35px;
+}
+
+@media (max-width:768px){
+    .cardPagas{
+        margin-left: 0px;
+        margin-right:0px;
+    }
+    .cardPrevistas{
+        width: 360px;
+    }
+    .cardVencidas{
+        margin-right: 0px;
+    }
+
+}

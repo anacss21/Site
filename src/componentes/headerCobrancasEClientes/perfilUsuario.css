@@ -1,0 +1,61 @@
+.containerPerfilUsuario {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  color: #0e8750;
+  margin-right: 70px;
+}
+.imagemPerfil {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dedee9;
+  border-radius: 50%;
+  font-size: 22px;
+  line-height: 30px;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+.nomeUsuario {
+  font-size: 18px;
+  line-height: 25px;
+  margin-right: 13px;
+}
+
+.abreOpcoesPerfil {
+  cursor: pointer;
+}
+.contemOpcoesPerfil {
+  position: relative;
+}
+.contemOpcoesPerfil img {
+  cursor: pointer;
+}
+.opcoesPerfil {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffffff;
+  border-radius: 8px;
+  width: 92px;
+  height: 51px;
+  position: absolute;
+  top: 38.5px;
+  right: -50px;
+  z-index: 2;
+}
+.separa16 {
+  margin-right: 16px;
+}
+.hidden {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .opcoesPerfil {
+    right: -50px;
+  }
+}

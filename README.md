@@ -10,19 +10,19 @@
 
 #### Observação: Funcionalidades do Projeto
 
-- [Usuário] Cadastro do usuário
-- [Usuário] Edição do usuário logado
-- [Cliente] Cadastro do cliente
-- [Cliente] Atualização do cliente
-- [Cliente] Detalhamento do cliente
-- [Cobranças] Detalhe da cobrança
-- [Cobranças] Exclusão de cobranças
-- [Cobranças] Edição de cobranças
-- [Cobranças] Cadastro de cobranças
-- [Cobranças] Listagem de cobranças
-- [Cobranças/Clientes] Busca e ordenação
-- [Cobranças/Clientes] Botão "ver todos" - Home
+- Cadastro do usuário
+- Edição do usuário logado
+- Cadastro do cliente
+- Atualização do cliente
+- Detalhamento do cliente
+- Detalhe da cobrança
+- Exclusão de cobranças
+- Edição de cobranças
+- Cadastro de cobranças
+- Listagem de cobranças
+- Busca e ordenação
+- Botão "ver todos" - Home
 
 ## Descrição do Projeto
 
-![image]("assets/tiposDeCobrancas/pagas.svg")
+![image]("assets/site/cadastro1.png")

@@ -6,9 +6,3 @@
 
 1. `npm install`
 2. `npm start`
-
-**Repositório de Backend**:
-
-**Repositório de Frontend**:
-
-**URL da aplicação funcionando**:https://desafio-integral-m05.netlify.app/

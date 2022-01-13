@@ -25,4 +25,4 @@
 
 ## Descrição do Projeto
 
-![]("assets/tiposDeCobrancas/pagas.svg")
+![image]("assets/tiposDeCobrancas/pagas.svg")

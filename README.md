@@ -25,4 +25,4 @@
 
 ## Descrição do Projeto
 
-![image](<url('../../assets/background.png')>)
+![]("../../assets/tiposDeCobrancas/pagas.svg")

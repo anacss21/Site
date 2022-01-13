@@ -2,37 +2,27 @@
 
 # Desafio Final Módulo 5 - FRONTEND
 
-Este repositório deverá servir de base para ser realizado o fork para desenvolvimento da parte de **FRONTEND** do desafio.
-
-A URL deste repositório deverá ser entregue na plataforma de alunos da Cubos Academy na página da parte de FRONTEND do desafio.
-
-## A versão final do código de cada sprint deverá estar na branch principal do repositório e sim, a cada semana acumulará as alterações das sprints, portanto a segunda sobrescrevendo a primeira e assim por diante.
-
 ## Executar o projeto
 
-1. `npm install`
-2. `npm start`
+1.  Clonar para seu computador o fork feito
+2.  Executar o `npm install` (para instalar as dependências)
+3.  Executar o `npm start` (Para "rodar" o projeto! Esse passo deve ser executado todas as vezes que você for desenvolver a aplicação)
 
-**Repositório de Backend**:https://github.com/anacss21/Site-Back
+#### Observação: Funcionalidades do Projeto
 
-No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
+- [Usuário] Cadastro do usuário
+- [Usuário] Edição do usuário logado
+- [Cliente] Cadastro do cliente
+- [Cliente] Atualização do cliente
+- [Cliente] Detalhamento do cliente
+- [Cobranças] Detalhe da cobrança
+- [Cobranças] Exclusão de cobranças
+- [Cobranças] Edição de cobranças
+- [Cobranças] Cadastro de cobranças
+- [Cobranças] Listagem de cobranças
+- [Cobranças/Clientes] Busca e ordenação
+- [Cobranças/Clientes] Botão "ver todos" - Home
 
-**Repositório de Backend**:https://github.com/anacss21/back-integral-m05-desafio
+## Descrição do Projeto
 
-**Repositório de Frontend**:https://github.com/anacss21/front-integral-m05-desafio
-
-**URL da aplicação funcionando**:https://desafio-integral-m05.netlify.app/
-
----
-
-E os itens abaixo, que deverão ser preenchidos apenas após a finalização de todas as sprints do projeto:
-
-**Pull Request (PR) de Backend**:
-
-**Pull Request (PR) de Frontend**:
-
-Estes Pull Requests (PRs) deverão ser criados a partir da branch principal do fork correspondente de vocês daquela stack tendo como destino o repositório base da stack do desafio.
-
-Ou seja, o Pull Request de **FRONTEND** deverá ser criado a partir do fork de vocês desse repositório aqui, com destino a este repositório aqui.
-
-E portanto o Pull Request de **BACKEND** deverá ser criado a partir do fork de vocês do repositório base de BACKEND desse desafio, com destino ao [repositório base de BACKEND desse desafio](https://github.com/cubos-academy/back-integral-m05-desafio).
+![image](<url('../../assets/background.png')>)

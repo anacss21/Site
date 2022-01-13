@@ -6,18 +6,14 @@ Este repositório deverá servir de base para ser realizado o fork para desenvol
 
 A URL deste repositório deverá ser entregue na plataforma de alunos da Cubos Academy na página da parte de FRONTEND do desafio.
 
-A versão final do código de cada sprint deverá estar na branch principal do repositório e sim, a cada semana acumulará as alterações das sprints, portanto a segunda sobrescrevendo a primeira e assim por diante.
+## A versão final do código de cada sprint deverá estar na branch principal do repositório e sim, a cada semana acumulará as alterações das sprints, portanto a segunda sobrescrevendo a primeira e assim por diante.
 
----
-<<<<<<< HEAD
-=======
 ## Executar o projeto
 
 1. `npm install`
 2. `npm start`
 
 **Repositório de Backend**:https://github.com/anacss21/Site-Back
->>>>>>> 16eca686de8e371f907c6c2d18a83b451a1310e9
 
 No fork de vocês, favor alterar este README para adicionar os links correspondentes para os seguintes itens:
 
